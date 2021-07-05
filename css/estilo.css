@@ -1,0 +1,104 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+    font-size: 25px;
+    display: block;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(141, 0, 87);
+    color: white;
+}
+
+#area-navegacao{
+    width: 500px;
+    margin: auto;
+}
+
+#menu{
+    float: right;
+    padding: 5px;
+}
+
+#logo{
+    font-family: Impact;
+    font-size: 18px;
+    float: left;
+    padding: 5px;
+}
+
+h1{
+    margin: 60px auto;
+    width: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(82, 2, 82);
+    background-color: rgba(255, 175, 255, 0.411);
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+article{
+    font-family: sans-serif;
+    color: rgb(80, 1, 40);
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(175, 174, 175, 0.212);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 2px 1px;
+}
+
+.titulo{
+    font-size: 1cm;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+}
+
+section a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:visited{
+    color: azure;
+}
+
+a:active{
+    color: azure;
+}
+
+a:link{
+    color: azure;
+}
+
+a:hover{
+    color: black;
+    background-color:rgb(248, 76, 162) ;
+}
+
+footer{
+    padding: 16px;
+    color: rgb(196, 26, 26);
+    clear: both;
+    height: 30px;
+}
